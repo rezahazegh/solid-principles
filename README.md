@@ -22,7 +22,6 @@ We use these principles To have more understandable, testable and maintainable c
 ### Bad:
 ```typescript
 class Salary {
-
     calculateSalary(){
         // ...
     }
@@ -82,18 +81,18 @@ However, make sure to not oversimplify your code. Some developers take the singl
 
 * But how are we going to add new functionality without touching the class, you may ask. It is usually done with the help of interfaces and abstract classes.
 
-Here is an example. Consider employees can choose to get notified by which way
+Here is an example. Consider employees can choose the way to receive their company notifications.
 
 ### Bad:
 ```typescript
 class Employee {
-    public selectedNotifyChannel;
+    selectedNotifyChannel: string;
 
-    public sendEmailNotification() {
+    sendEmailNotification() {
         // ...
     }
 
-    public sendSMSNotification() {
+    sendSMSNotification() {
         // ...
     }
 }
