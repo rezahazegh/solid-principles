@@ -1,34 +1,34 @@
 // Bad
 class Salary {
 
-    calculateSalary(){
+    calculateSalary() {
         // ...
     }
 
-    printPaycheck(){
+    printPaycheck() {
         // ...
     }
 
-    saveData(){
+    saveData() {
         // ...
     }
 }
 
 // Good
 class SalaryCalculate {
-    calculate(){
+    calculate() {
         // ...
     }
 }
 
 class SalaryPaycheck {
-    print(){
+    print() {
         // ...
     }
 }
 
 class SalaryPersistence {
-    save(){
+    save() {
         // ...
     }
 }
