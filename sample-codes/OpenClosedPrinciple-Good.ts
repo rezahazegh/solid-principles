@@ -3,13 +3,13 @@ interface Notifier {
     notify();
 }
 
-class EmailNotifier {
+class EmailNotifier implements Notifier {
     notify() {
         // ...
     }
 }
 
-class SMSNotifier {
+class SMSNotifier implements Notifier {
     notify() {
         // ...
     }
