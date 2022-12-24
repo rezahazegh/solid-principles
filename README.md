@@ -76,6 +76,8 @@ class SalaryPersistence {
 
 However, make sure to not oversimplify your code. Some developers take the single responsibility principle to the extreme by creating classes with just one function. Later, when they want to write some actual code, they have to inject many dependencies which makes the code very unreadable and confusing.
 
+**[⬆ back to top](#table-of-contents)**
+
 ## 2- Open/Closed Principle (OCP)
 
 * As stated by Bertrand Meyer, "software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification."
@@ -175,6 +177,8 @@ class NotifyManager {
 }
 ```
 With this implementation you just need to add ```WhatsAppNotifier``` class without modifying ```Employee``` and ```NotifyManager``` classes.
+
+**[⬆ back to top](#table-of-contents)**
 
 ## 3- Liskov Substitution Principle (LSP)
 
@@ -301,6 +305,8 @@ const shapes = [new Rectangle(4, 5), new Rectangle(4, 5), new Square(5)];
 renderLargeShapes(shapes);
 ```
 
+**[⬆ back to top](#table-of-contents)**
+
 ## 4- Interface Segregation Principle (ISP)
 * Segregation means keeping things separated, and the Interface Segregation Principle is about separating the interfaces.
 
@@ -368,6 +374,8 @@ class SMSNotifier implements Notifier {
 }
 ```
 
+**[⬆ back to top](#table-of-contents)**
+
 ## 5- Dependency Inversion Principle (DIP)
 
 * The Dependency Inversion principle states that our classes should depend upon interfaces or abstract classes instead of concrete classes and functions.
@@ -414,3 +422,5 @@ class AppInit {
     }
 }
 ```
+
+**[⬆ back to top](#table-of-contents)**
