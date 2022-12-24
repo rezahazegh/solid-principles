@@ -3,6 +3,14 @@ The SOLID Principles are five principles of Object-Oriented class design. They a
 
 We use these principles To have more understandable, testable and maintainable code that many developers can collaboratively work on.
 
+## Table of Contents
+
+1. [Single Responsibility Principle](#1--single-responsibility-principle-srp)
+2. [Open/Closed Principle](#2--openclosed-principle-ocp)
+3. [Liskov Substitution Principle](#3--liskov-substitution-principle-lsp)
+4. [Interface Segregation Principle](#4--interface-segregation-principle-isp)
+5. [Dependency Inversion Principle](#5--dependency-inversion-principle-dip)
+
 ## 1- Single Responsibility Principle (SRP)
 
 * It makes your software easier to implement and prevents unexpected side-effects of future changes.
