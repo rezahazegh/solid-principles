@@ -325,7 +325,9 @@ interface Notifier {
 
     attachFile()
 }
+```
 
+```typescript
 class EmailNotifier implements Notifier {
     notify() {
         // ...
@@ -335,7 +337,9 @@ class EmailNotifier implements Notifier {
         // ...
     }
 }
+```
 
+```typescript
 class SMSNotifier implements Notifier {
     notify() {
         // ...
@@ -352,11 +356,15 @@ class SMSNotifier implements Notifier {
 interface Notifier {
     notify()
 }
+```
 
+```typescript
 interface Attacher {
     attachFile()
 }
+```
 
+```typescript
 class EmailNotifier implements Notifier, Attacher {
     notify() {
         // ...
@@ -366,7 +374,9 @@ class EmailNotifier implements Notifier, Attacher {
         // ...
     }
 }
+```
 
+```typescript
 class SMSNotifier implements Notifier {
     notify() {
         // ...
@@ -389,7 +399,9 @@ class MySQLConnection {
         return 'Database connection';
     }
 }
+```
 
+```typescript
 class AppInit {
     private dbConnection;
 
@@ -406,14 +418,18 @@ This implementation violates DIP, because if you need to pass any other database
 interface DBConnectionInterface {
     connect();
 }
+```
 
+```typescript
 class MySQLConnection implements DBConnectionInterface{
     connect() {
         // handle the database connection
         return 'Database connection';
     }
 }
+```
 
+```typescript
 class AppInit {
     private dbConnection;
 
