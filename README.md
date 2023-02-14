@@ -440,3 +440,20 @@ class AppInit {
 ```
 
 **[⬆ back to top](#table-of-contents)**
+
+## Recap
+
+### Pros:
+SOLID Principles have several advantages, such as:
+
+* Improved maintainability: By following SOLID principles, the code becomes easier to modify and extend, which improves its maintainability.
+* Better testability: SOLID principles make code more modular, which makes it easier to test individual components.
+* Reduced code complexity: SOLID principles help to reduce code complexity by promoting the separation of concerns and encapsulation.
+* Increased code reusability: SOLID principles promote the creation of small, reusable code components that can be easily combined to create larger systems.
+
+### Cons:
+However, there are also some potential drawbacks to using SOLID principles:
+
+* Increased development time: Implementing SOLID principles may take longer than writing quick-and-dirty code, as it requires more thought and planning upfront.
+* Over-engineering: It's possible to overapply SOLID principles, resulting in code that is overly complex and difficult to understand.
+* Learning curve: SOLID principles require a certain level of knowledge and understanding of object-oriented design, which may require additional training or education for some developers.
