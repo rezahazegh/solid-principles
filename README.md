@@ -10,6 +10,7 @@ We use these principles To have more understandable, testable and maintainable c
 3. [Liskov Substitution Principle](#3--liskov-substitution-principle-lsp)
 4. [Interface Segregation Principle](#4--interface-segregation-principle-isp)
 5. [Dependency Inversion Principle](#5--dependency-inversion-principle-dip)
+6. [Recap](#6--recap)
 
 ## 1- Single Responsibility Principle (SRP)
 
@@ -441,7 +442,7 @@ class AppInit {
 
 **[⬆ back to top](#table-of-contents)**
 
-## Recap
+## 6- Recap
 
 ### Pros:
 SOLID Principles have several advantages, such as:
@@ -457,3 +458,5 @@ However, there are also some potential drawbacks to using SOLID principles:
 * Increased development time: Implementing SOLID principles may take longer than writing quick-and-dirty code, as it requires more thought and planning upfront.
 * Over-engineering: It's possible to overapply SOLID principles, resulting in code that is overly complex and difficult to understand.
 * Learning curve: SOLID principles require a certain level of knowledge and understanding of object-oriented design, which may require additional training or education for some developers.
+
+**[⬆ back to top](#table-of-contents)**
